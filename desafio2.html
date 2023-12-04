@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+   
+    <script>
+//programa que exiba boas vindas no console.log 1
+console.log('bem vindo');
+// exibir variável no console do navegador 2
+let nome = 'wallan' ;    
+console.log(`Olá, ${nome}`);
+// exibir mensagem com a variável nome 3   
+alert(`Olá, ${nome}`); 
+// mostrar no console a respota obtida 4
+let linguagem = prompt('Qual a linguagem de programção que você mais gosta?');
+console.log(`${linguagem}`);
+// mostrar no console a variável resultado 5
+let valor1 = 10;
+let valor2 = 25;
+resultado = valor1 + valor2 ;
+resultado2 = valor1 - valor2 ;
+console.log(`a soma do ${valor1} e ${valor2} é igual ${resultado}`);
+// mostrar no console a variavél resultado2 6
+console.log(`a diferença entre ${valor1} e ${valor2} é igual a ${resultado2}`);
+    // exibir mensagem se o usuário é maior de idade no console 7
+    let idade = prompt('qual sua idade?');
+    if (idade>=18) {
+        console.log(`sua idade é ${idade}, logo você é maior de idade`);
+         } else {
+        console.log(`sua idade é ${idade}, logo você é menor de idade`);
+    }
+    //pedir um número e dizer se ele é positivo, negativo ou zero 8
+    let numero = prompt('digite um número:');
+    if (numero == 0) {
+    alert(`${numero} é igual a 0`)
+        
+    } else {
+
+        if (numero >0 ){
+        alert(`${numero} é positivo`);
+    }
+     else {
+        alert(`${numero} é negativo`);
+    }}
+//contador progressivo no console 9 
+let contador = 0 ;
+while (contador <=10 ){
+    console.log(contador);
+0
+contador++
+}
+// exibir no console a mensagem de aprovado ou reprovado 10
+ nota= 7;
+ if(nota>=7){
+    console.log(`sua nota é ${nota} e você está aprovado`);
+ } else {
+    if(nota <7){
+        console.log(`sua nota é ${nota} e você está reporvado`);
+    }
+ }
+ // número aleatorio no console 11
+ let numeroSecreto = Math.random() ;
+ console.log(numeroSecreto);
+// número aleatório de 1 a 10 no console 12
+let numeroSecreto2 = parseInt(Math.random() * 10 + 1) ;
+console.log(numeroSecreto2);
+// número aleatorio de 1 a 1000 no console 13
+let numeroSecreto3 = parseInt(Math.random() * 1000 + 1);
+console.log(numeroSecreto3)
+    </script>
+</body>
+</html>
